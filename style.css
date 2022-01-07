@@ -3,6 +3,8 @@
 }
 body{
     margin: 0 auto 0 auto;
+    display: block;
+    text-align: center;
 }
 section{
     border: 2px solid black;
@@ -13,7 +15,7 @@ section{
 }
 main{
     border: 2px solid purple;
-    margin: 100px 100px 100px 100px;
+    margin: 100px 100px 0px 100px;
     border-top: 2px solid pink;
     border-bottom: 2px solid pink;
 }
