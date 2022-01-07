@@ -2,14 +2,15 @@
     margin: 0px;
 }
 body{
-    margin: 0 auto 0 auto;
     display: block;
+    text-align: center;
     background-color: black;
 }
 section{
+
     background-color: white;
     border: 2px solid black;
-    margin: 10px;
+    margin: 10px auto;
     width: 210mm;
     height: 297mm;
     box-shadow: 3px 3px 0px 0px ;
@@ -19,6 +20,8 @@ main{
     margin: 100px 100px 0px 100px;
     border-top: 2px solid pink;
     border-bottom: 2px solid pink;
+    height: 240mm;
+    overflow: hidden;
 }
 .story{
     text-align: justify;
@@ -26,6 +29,7 @@ main{
 }
 .story::first-letter{
     font-size: 40px;
+    
 } 
 h4, h2, h3{
     text-align: center;
