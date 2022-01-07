@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+}
+body{
+    margin: 0 auto 0 auto;
+}
+section{
+    border: 2px solid black;
+    margin: 10px;
+    width: 210mm;
+    height: 297mm;
+    box-shadow: 3px 3px 0px 0px ;
+}
+main{
+    border: 2px solid purple;
+    margin: 100px 100px 100px 100px;
+    border-top: 2px solid pink;
+    border-bottom: 2px solid pink;
+}
+.story{
+    text-align: justify;
+    margin-top: 100px;
+}
+.story::first-letter{
+    font-size: 40px;
+} 
+h4, h2, h3{
+    text-align: center;
+}
